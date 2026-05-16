@@ -62,7 +62,7 @@ func getTemperature(temp float64) string {
 	var result string
 	temperatureStr := strconv.FormatFloat(temp, 'g', -1, 64)
 	if temp < 20 {
-		result += "Дабачина, как в холодильнике " + temperatureStr + "\n"
+		result += "Дубачина, как в холодильнике " + temperatureStr + "\n"
 	} else if temp > 20 && temp < 30 {
 		result += "Прохладно, норм " + temperatureStr + "\n"
 	} else {
