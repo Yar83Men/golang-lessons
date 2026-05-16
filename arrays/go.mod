@@ -1,0 +1,3 @@
+module go_lessons/arrays
+
+go 1.25.3
